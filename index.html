@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS Dashboard</title>
+    <script>
+      // Check theme preference on page load
+      let theme = localStorage.getItem('theme') || 'light';
+      
+      // Apply the theme class
+      const htmlEl = document.documentElement;
+      htmlEl.classList.remove('light', 'dark');
+      
+      if (theme === 'dark') {
+        htmlEl.classList.add('dark');
+      } else if (theme === 'light') {
+        htmlEl.classList.add('light');
+      } else if (theme === 'system') {
+        // Check system preference
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          htmlEl.classList.add('dark');
+        } else {
+          htmlEl.classList.add('light');
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-CBlyhhB_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index--gUpo_7H.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
