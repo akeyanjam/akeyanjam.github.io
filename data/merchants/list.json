@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Acme Corporation",
+    "dba": "Acme Corp",
+    "mid": "MID789012",
+    "app": "Payment App",
+    "status": "active",
+    "lastActivity": "2024-01-15T14:30:00Z",
+    "logo": null,
+    "volume": "$125,000",
+    "approvalRate": "96.5%"
+  },
+  {
+    "id": "2",
+    "name": "TechStart LLC",
+    "dba": "TechStart",
+    "mid": "MID456789",
+    "app": "E-commerce",
+    "status": "pending",
+    "lastActivity": "2024-01-14T10:30:00Z",
+    "logo": null,
+    "volume": "$89,500",
+    "approvalRate": "92.1%"
+  },
+  {
+    "id": "3",
+    "name": "QuickPay Inc",
+    "dba": "QuickPay",
+    "mid": "MID123456",
+    "app": "Mobile POS",
+    "status": "active",
+    "lastActivity": "2024-01-13T08:30:00Z",
+    "logo": null,
+    "volume": "$267,800",
+    "approvalRate": "98.2%"
+  },
+  {
+    "id": "4",
+    "name": "RetailMax",
+    "dba": "RetailMax Store",
+    "mid": "MID654321",
+    "app": "Payment App",
+    "status": "suspended",
+    "lastActivity": "2024-01-12T06:30:00Z",
+    "logo": null,
+    "volume": "$45,200",
+    "approvalRate": "89.4%"
+  },
+  {
+    "id": "5",
+    "name": "Global Solutions Inc",
+    "dba": "GlobalSol",
+    "mid": "MID987654",
+    "app": "E-commerce",
+    "status": "active",
+    "lastActivity": "2024-01-11T16:45:00Z",
+    "logo": null,
+    "volume": "$198,750",
+    "approvalRate": "95.8%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "type": "approval",
+    "title": "Acme Corp application approved",
+    "description": "Merchant ID: MID789012",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "status": "success"
+  },
+  {
+    "id": "2",
+    "type": "webhook",
+    "title": "New webhook configured for TechStart LLC",
+    "description": "Endpoint: api.techstart.com/webhooks",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "status": "info"
+  },
+  {
+    "id": "3",
+    "type": "document",
+    "title": "Document upload required for QuickPay Inc",
+    "description": "Missing: Bank statements",
+    "timestamp": "2024-01-15T08:30:00Z",
+    "status": "warning"
+  },
+  {
+    "id": "4",
+    "type": "settlement",
+    "title": "Settlement processed for RetailMax",
+    "description": "Amount: $45,230.15",
+    "timestamp": "2024-01-15T06:30:00Z",
+    "status": "success"
+  }
+]

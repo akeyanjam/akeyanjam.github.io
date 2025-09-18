@@ -1,0 +1,26 @@
+{
+  "processedVolume": {
+    "value": "$2.4M",
+    "change": "+12.5%",
+    "changeType": "positive",
+    "description": "from last month"
+  },
+  "approvalRate": {
+    "value": "94.2%",
+    "change": "+2.1%",
+    "changeType": "positive",
+    "description": "from last month"
+  },
+  "activeMerchants": {
+    "value": "1,247",
+    "change": "+87",
+    "changeType": "positive",
+    "description": "new this month"
+  },
+  "openDisputes": {
+    "value": "23",
+    "change": "3",
+    "changeType": "warning",
+    "description": "require attention"
+  }
+}
