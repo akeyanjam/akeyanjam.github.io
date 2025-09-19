@@ -1,0 +1,339 @@
+[
+  {
+    "id": "DISP-1045",
+    "stage": "Chargeback",
+    "status": "awaiting-evidence",
+    "reasonCode": "13.2",
+    "reason": "Cancelled Recurring Service",
+    "amount": 245.67,
+    "currency": "USD",
+    "deadline": "2025-09-24T23:59:59Z",
+    "assignedTo": "Maya Patel",
+    "merchant": {
+      "name": "Acme Corporation",
+      "dba": "Acme Corp",
+      "mid": "MID789012"
+    },
+    "transaction": {
+      "id": "txn-20250914-204",
+      "processedAt": "2025-09-14T15:42:00Z",
+      "amount": 245.67,
+      "currency": "USD",
+      "cardBrand": "Visa",
+      "cardLast4": "4242"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T14:32:00Z",
+        "title": "Issuer requested evidence",
+        "actor": "Bank of America",
+        "description": "Chargeback initiated. Evidence deadline set for Sep 24."
+      },
+      {
+        "id": "evt-2",
+        "timestamp": "2025-09-17T10:10:00Z",
+        "title": "Merchant notes added",
+        "actor": "Maya Patel",
+        "description": "Reached out to fulfillment partner for shipping logs."
+      }
+    ],
+    "documents": [
+      {
+        "name": "Proof of Delivery",
+        "status": "requested"
+      },
+      {
+        "name": "Customer Communication",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-17T09:15:00Z"
+      },
+      {
+        "name": "Service Agreement",
+        "status": "missing"
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Customer Emails.pdf",
+        "uploadedAt": "2025-09-17T09:15:00Z",
+        "size": "1.2 MB"
+      }
+    ],
+    "notes": "Awaiting confirmation from fulfillment partner."
+  },
+  {
+    "id": "DISP-1046",
+    "stage": "Inquiry",
+    "status": "open",
+    "reasonCode": "10.4",
+    "reason": "Other Fraud – Card Absent Environment",
+    "amount": 1124.89,
+    "currency": "USD",
+    "deadline": "2025-09-22T18:00:00Z",
+    "assignedTo": "Jordan Blake",
+    "merchant": {
+      "name": "QuickPay Inc",
+      "dba": "QuickPay",
+      "mid": "MID123456"
+    },
+    "transaction": {
+      "id": "txn-20250915-118",
+      "processedAt": "2025-09-15T20:11:00Z",
+      "amount": 1124.89,
+      "currency": "USD",
+      "cardBrand": "Mastercard",
+      "cardLast4": "9441"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T09:05:00Z",
+        "title": "Inquiry created",
+        "actor": "Issuer",
+        "description": "Cardholder claimed unauthorized transaction."
+      }
+    ],
+    "documents": [
+      {
+        "name": "IP Address Logs",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-18T09:30:00Z"
+      },
+      {
+        "name": "Customer Verification",
+        "status": "requested"
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Fraud Analysis.xlsx",
+        "uploadedAt": "2025-09-18T09:30:00Z",
+        "size": "642 KB"
+      }
+    ],
+    "notes": "Need device fingerprinting report before deadline."
+  },
+  {
+    "id": "DISP-1047",
+    "stage": "Chargeback",
+    "status": "evidence-submitted",
+    "reasonCode": "12.6",
+    "reason": "Credit Not Processed",
+    "amount": 86.54,
+    "currency": "USD",
+    "deadline": "2025-09-26T17:00:00Z",
+    "assignedTo": "Priya Patel",
+    "merchant": {
+      "name": "RetailMax",
+      "dba": "RetailMax Store",
+      "mid": "MID654321"
+    },
+    "transaction": {
+      "id": "txn-20250913-044",
+      "processedAt": "2025-09-13T18:45:00Z",
+      "amount": 86.54,
+      "currency": "USD",
+      "cardBrand": "Visa",
+      "cardLast4": "2199"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T13:20:00Z",
+        "title": "Evidence submitted",
+        "actor": "Priya Patel",
+        "description": "Uploaded refund confirmation and customer communication."
+      },
+      {
+        "id": "evt-2",
+        "timestamp": "2025-09-17T08:30:00Z",
+        "title": "Chargeback received",
+        "actor": "Issuer",
+        "description": "Chargeback initiated for credit not processed."
+      }
+    ],
+    "documents": [
+      {
+        "name": "Refund Receipt",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-18T13:20:00Z"
+      },
+      {
+        "name": "Customer Email",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-18T13:20:00Z"
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Refund Confirmation.pdf",
+        "uploadedAt": "2025-09-18T13:20:00Z",
+        "size": "512 KB"
+      }
+    ],
+    "notes": "Awaiting issuer decision after evidence review."
+  },
+  {
+    "id": "DISP-1048",
+    "stage": "Pre-Arb",
+    "status": "hold",
+    "reasonCode": "30.1",
+    "reason": "Duplicate Processing",
+    "amount": 987.15,
+    "currency": "USD",
+    "deadline": "2025-09-27T23:59:59Z",
+    "assignedTo": "Alex Rivera",
+    "merchant": {
+      "name": "Northwind Traders",
+      "dba": "Northwind",
+      "mid": "MID135791"
+    },
+    "transaction": {
+      "id": "txn-20250912-311",
+      "processedAt": "2025-09-12T11:07:00Z",
+      "amount": 987.15,
+      "currency": "USD",
+      "cardBrand": "Discover",
+      "cardLast4": "5523"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T08:05:00Z",
+        "title": "Pre-arbitration filed",
+        "actor": "Issuer",
+        "description": "Issuer rejected initial evidence and escalated to pre-arbitration."
+      },
+      {
+        "id": "evt-2",
+        "timestamp": "2025-09-16T12:00:00Z",
+        "title": "Issuer response",
+        "actor": "Issuer",
+        "description": "Issuer disputes duplicate processing explanation."
+      }
+    ],
+    "documents": [
+      {
+        "name": "Settlement Report",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-16T11:45:00Z"
+      },
+      {
+        "name": "Transaction Logs",
+        "status": "requested"
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Terminal Report.pdf",
+        "uploadedAt": "2025-09-16T11:45:00Z",
+        "size": "2.1 MB"
+      }
+    ],
+    "notes": "Consider mediation with issuer if additional logs unavailable."
+  },
+  {
+    "id": "DISP-1049",
+    "stage": "Chargeback",
+    "status": "won",
+    "reasonCode": "13.6",
+    "reason": "Cardholder Found Merchandise Defective",
+    "amount": 224.64,
+    "currency": "USD",
+    "deadline": "2025-09-20T17:00:00Z",
+    "assignedTo": "Taylor Brooks",
+    "merchant": {
+      "name": "BrightMarket",
+      "dba": "BrightMarket Online",
+      "mid": "MID246810"
+    },
+    "transaction": {
+      "id": "txn-20250910-087",
+      "processedAt": "2025-09-10T14:30:00Z",
+      "amount": 224.64,
+      "currency": "USD",
+      "cardBrand": "Mastercard",
+      "cardLast4": "7754"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T07:40:00Z",
+        "title": "Case closed in merchant favor",
+        "actor": "Bank of America",
+        "description": "Issuer accepted evidence package and reversed chargeback."
+      },
+      {
+        "id": "evt-2",
+        "timestamp": "2025-09-15T09:15:00Z",
+        "title": "Evidence submitted",
+        "actor": "Taylor Brooks",
+        "description": "Provided product inspection report and customer acknowledgement."
+      }
+    ],
+    "documents": [
+      {
+        "name": "Product Inspection",
+        "status": "uploaded",
+        "uploadedAt": "2025-09-15T09:15:00Z"
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Inspection Report.pdf",
+        "uploadedAt": "2025-09-15T09:15:00Z",
+        "size": "845 KB"
+      }
+    ],
+    "notes": "Case resolved. Communicate outcome to merchant."
+  },
+  {
+    "id": "DISP-1050",
+    "stage": "Inquiry",
+    "status": "lost",
+    "reasonCode": "13.1",
+    "reason": "Merchandise/Services Not Received",
+    "amount": 312.88,
+    "currency": "USD",
+    "deadline": "2025-09-18T20:00:00Z",
+    "assignedTo": "Morgan Ellis",
+    "merchant": {
+      "name": "RetailMax",
+      "dba": "RetailMax Store",
+      "mid": "MID654321"
+    },
+    "transaction": {
+      "id": "txn-20250909-331",
+      "processedAt": "2025-09-09T19:55:00Z",
+      "amount": 312.88,
+      "currency": "USD",
+      "cardBrand": "Visa",
+      "cardLast4": "2199"
+    },
+    "timeline": [
+      {
+        "id": "evt-1",
+        "timestamp": "2025-09-18T11:15:00Z",
+        "title": "Case closed – issuer favor",
+        "actor": "Issuer",
+        "description": "Issuer ruled in cardholder favor due to lack of delivery confirmation."
+      },
+      {
+        "id": "evt-2",
+        "timestamp": "2025-09-16T07:45:00Z",
+        "title": "Evidence requested",
+        "actor": "Issuer",
+        "description": "Proof of delivery requested."
+      }
+    ],
+    "documents": [
+      {
+        "name": "Proof of Delivery",
+        "status": "missing"
+      }
+    ],
+    "evidence": [],
+    "notes": "Case lost. Review shipping processes for curbside pickup orders."
+  }
+]

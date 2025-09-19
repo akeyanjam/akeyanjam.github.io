@@ -1,0 +1,134 @@
+[
+  {
+    "id": "settlement-20250918-001",
+    "batchDate": "2025-09-18T09:30:00Z",
+    "fundedDate": "2025-09-18T12:30:00Z",
+    "merchant": {
+      "name": "Acme Corporation",
+      "dba": "Acme Corp",
+      "mid": "MID789012"
+    },
+    "app": "Payment App",
+    "gross": 24500.35,
+    "fees": 315.45,
+    "net": 24184.9,
+    "status": "funded",
+    "statementUrl": "https://example.com/statements/acme/2025-09-18",
+    "depositAccount": "Chase ****8821",
+    "currency": "USD",
+    "transactions": 182,
+    "reserve": 0,
+    "notes": "Regular daily funding",
+    "riskHold": false
+  },
+  {
+    "id": "settlement-20250918-002",
+    "batchDate": "2025-09-18T09:00:00Z",
+    "fundedDate": null,
+    "merchant": {
+      "name": "RetailMax",
+      "dba": "RetailMax Store",
+      "mid": "MID654321"
+    },
+    "app": "Mobile POS",
+    "gross": 18210.12,
+    "fees": 256.19,
+    "net": 17953.93,
+    "status": "pending",
+    "statementUrl": "https://example.com/statements/retailmax/2025-09-18",
+    "depositAccount": "Bank of America ****4411",
+    "currency": "USD",
+    "transactions": 134,
+    "reserve": 250,
+    "notes": "Review due to elevated refund rate",
+    "riskHold": false
+  },
+  {
+    "id": "settlement-20250918-003",
+    "batchDate": "2025-09-18T08:45:00Z",
+    "fundedDate": null,
+    "merchant": {
+      "name": "QuickPay Inc",
+      "dba": "QuickPay",
+      "mid": "MID123456"
+    },
+    "app": "E-commerce",
+    "gross": 30125.44,
+    "fees": 512.8,
+    "net": 29612.64,
+    "status": "hold",
+    "statementUrl": "https://example.com/statements/quickpay/2025-09-18",
+    "depositAccount": "Wells Fargo ****3309",
+    "currency": "USD",
+    "transactions": 211,
+    "reserve": 5000,
+    "notes": "Manual underwriting review required",
+    "riskHold": true
+  },
+  {
+    "id": "settlement-20250917-004",
+    "batchDate": "2025-09-17T09:20:00Z",
+    "fundedDate": "2025-09-17T12:00:00Z",
+    "merchant": {
+      "name": "Global Solutions Inc",
+      "dba": "GlobalSol",
+      "mid": "MID987654"
+    },
+    "app": "Payment App",
+    "gross": 15488.22,
+    "fees": 208.33,
+    "net": 15279.89,
+    "status": "funded",
+    "statementUrl": "https://example.com/statements/globalsol/2025-09-17",
+    "depositAccount": "Citibank ****1199",
+    "currency": "USD",
+    "transactions": 99,
+    "reserve": 0,
+    "notes": "",
+    "riskHold": false
+  },
+  {
+    "id": "settlement-20250917-005",
+    "batchDate": "2025-09-17T08:15:00Z",
+    "fundedDate": "2025-09-17T11:30:00Z",
+    "merchant": {
+      "name": "TechStart LLC",
+      "dba": "TechStart",
+      "mid": "MID456789"
+    },
+    "app": "E-commerce",
+    "gross": 9822.81,
+    "fees": 142.55,
+    "net": 9680.26,
+    "status": "funded",
+    "statementUrl": "https://example.com/statements/techstart/2025-09-17",
+    "depositAccount": "First Republic ****7723",
+    "currency": "USD",
+    "transactions": 87,
+    "reserve": 0,
+    "notes": "",
+    "riskHold": false
+  },
+  {
+    "id": "settlement-20250917-006",
+    "batchDate": "2025-09-17T07:50:00Z",
+    "fundedDate": null,
+    "merchant": {
+      "name": "BrightMarket",
+      "dba": "BrightMarket Online",
+      "mid": "MID246810"
+    },
+    "app": "Marketplace Platform",
+    "gross": 21456.67,
+    "fees": 344.28,
+    "net": 21112.39,
+    "status": "pending",
+    "statementUrl": "https://example.com/statements/brightmarket/2025-09-17",
+    "depositAccount": "US Bank ****5590",
+    "currency": "USD",
+    "transactions": 175,
+    "reserve": 1500,
+    "notes": "Awaiting partner confirmation",
+    "riskHold": false
+  }
+]

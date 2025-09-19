@@ -1,0 +1,146 @@
+[
+  {
+    "id": "app-1042",
+    "merchant": {
+      "name": "Acme Corporation",
+      "dba": "Acme Corp",
+      "mid": "MID789012"
+    },
+    "owner": "Jamie Lee",
+    "app": "Payment App",
+    "stage": "Under Review",
+    "capabilities": ["Card Present", "E-commerce", "Invoicing"],
+    "updated": "2024-01-15T14:20:00Z",
+    "progress": 58,
+    "sla": {
+      "status": "at-risk",
+      "label": "2 days remaining"
+    },
+    "submittedAt": "2024-01-10T09:15:00Z",
+    "tasks": [
+      { "label": "KYC verification", "status": "completed" },
+      { "label": "Underwriting review", "status": "in-progress" },
+      { "label": "Bank account validation", "status": "pending" }
+    ]
+  },
+  {
+    "id": "app-1043",
+    "merchant": {
+      "name": "RetailMax",
+      "dba": "RetailMax Store",
+      "mid": "MID654321"
+    },
+    "owner": "Morgan Ellis",
+    "app": "Mobile POS",
+    "stage": "Draft",
+    "capabilities": ["Card Present", "Gift Cards"],
+    "updated": "2024-01-14T11:45:00Z",
+    "progress": 24,
+    "sla": {
+      "status": "on-track",
+      "label": "Draft expires in 5 days"
+    },
+    "submittedAt": null,
+    "tasks": [
+      { "label": "Business info", "status": "completed" },
+      { "label": "Owners & officers", "status": "pending" },
+      { "label": "Documents upload", "status": "pending" }
+    ]
+  },
+  {
+    "id": "app-1044",
+    "merchant": {
+      "name": "QuickPay Inc",
+      "dba": "QuickPay",
+      "mid": "MID123456"
+    },
+    "owner": "Alex Rivera",
+    "app": "E-commerce",
+    "stage": "Submitted",
+    "capabilities": ["E-commerce", "Recurring Billing", "Multi-currency"],
+    "updated": "2024-01-15T08:05:00Z",
+    "progress": 72,
+    "sla": {
+      "status": "on-track",
+      "label": "Review in progress"
+    },
+    "submittedAt": "2024-01-12T16:30:00Z",
+    "tasks": [
+      { "label": "Compliance review", "status": "in-progress" },
+      { "label": "Risk assessment", "status": "pending" },
+      { "label": "Banking verification", "status": "pending" }
+    ]
+  },
+  {
+    "id": "app-1045",
+    "merchant": {
+      "name": "Global Solutions Inc",
+      "dba": "GlobalSol",
+      "mid": "MID987654"
+    },
+    "owner": "Priya Patel",
+    "app": "Payment App",
+    "stage": "Approved",
+    "capabilities": ["Card Present", "E-commerce", "ACH"],
+    "updated": "2024-01-13T17:10:00Z",
+    "progress": 100,
+    "sla": {
+      "status": "completed",
+      "label": "SLA met"
+    },
+    "submittedAt": "2024-01-08T13:45:00Z",
+    "tasks": [
+      { "label": "Contract signature", "status": "completed" },
+      { "label": "Bank account verification", "status": "completed" },
+      { "label": "Capabilities enabled", "status": "completed" }
+    ]
+  },
+  {
+    "id": "app-1046",
+    "merchant": {
+      "name": "BrightMarket",
+      "dba": "BrightMarket Online",
+      "mid": "MID246810"
+    },
+    "owner": "Taylor Brooks",
+    "app": "Marketplace Platform",
+    "stage": "Rejected",
+    "capabilities": ["E-commerce", "Marketplace Split"],
+    "updated": "2024-01-11T19:55:00Z",
+    "progress": 45,
+    "sla": {
+      "status": "overdue",
+      "label": "SLA breached"
+    },
+    "submittedAt": "2024-01-05T10:20:00Z",
+    "tasks": [
+      { "label": "Document verification", "status": "completed" },
+      { "label": "Risk review", "status": "completed" },
+      { "label": "Enhanced due diligence", "status": "failed" }
+    ]
+  },
+  {
+    "id": "app-1047",
+    "merchant": {
+      "name": "Northwind Traders",
+      "dba": "Northwind",
+      "mid": "MID135791"
+    },
+    "owner": "Jordan Blake",
+    "app": "OmniPay Suite",
+    "stage": "Under Review",
+    "capabilities": ["Card Present", "E-commerce", "Virtual Terminal"],
+    "updated": "2024-01-16T07:40:00Z",
+    "progress": 64,
+    "sla": {
+      "status": "on-track",
+      "label": "SLA on track"
+    },
+    "submittedAt": "2024-01-11T14:05:00Z",
+    "tasks": [
+      { "label": "Fraud review", "status": "in-progress" },
+      { "label": "Bank account verification", "status": "in-progress" },
+      { "label": "Final approval", "status": "pending" }
+    ]
+  }
+]
